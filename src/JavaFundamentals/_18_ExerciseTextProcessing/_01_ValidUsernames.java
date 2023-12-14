@@ -1,4 +1,4 @@
-package JavaFundamentals._018_ExerciseTextProcessing;
+package JavaFundamentals._18_ExerciseTextProcessing;
 
 import java.util.Scanner;
 
