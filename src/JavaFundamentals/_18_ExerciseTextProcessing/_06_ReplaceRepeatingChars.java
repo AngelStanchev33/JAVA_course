@@ -16,13 +16,13 @@ public class _06_ReplaceRepeatingChars {
 
         }
 
-        for (int i = 0; i < clean.size()-1 ; i++) {
+        for (int i = 0; i < clean.size() - 1; i++) {
             String current = clean.get(i);
             String next = clean.get(i + 1);
 
 
             if (current.equals(next)) {
-                clean.remove(i +1);
+                clean.remove(next);
                 i--;
 
             }
