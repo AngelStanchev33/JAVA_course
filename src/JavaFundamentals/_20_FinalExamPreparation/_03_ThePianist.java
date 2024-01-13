@@ -76,11 +76,10 @@ public class _03_ThePianist {
             input = scanner.nextLine();
         }
 
-        favoritePianoPieceMap.entrySet().forEach(entry -> {
-            List<String> values = entry.getValue();
+        favoritePianoPieceMap.forEach((key, values) -> {
             String firstValue = values.get(0);
             String secondValue = values.get(1);
-            System.out.printf("%s -> Composer: %s, Key: %s%n", entry.getKey(), firstValue, secondValue);
+            System.out.printf("%s -> Composer: %s, Key: %s%n", key, firstValue, secondValue);
         });
     }
 }
