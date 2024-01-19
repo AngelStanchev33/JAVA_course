@@ -6,7 +6,7 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class _1_Furniture {
+public class _01_Furniture {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
