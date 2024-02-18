@@ -48,13 +48,8 @@ public class _02_ShoppingList {
 
         }
 
-        StringBuilder print = new StringBuilder();
-        for (int i = 0; i < groceries.size() - 1; i++) {
-            String current = groceries.get(i);
-            print.append(current).append(", ");
-        }
-        String lastGrocery = groceries.get(groceries.size() - 1);
-        System.out.println(print + lastGrocery);
+        String joined = String.join(", ",groceries);
+        System.out.println(joined);
 
     }
 }
