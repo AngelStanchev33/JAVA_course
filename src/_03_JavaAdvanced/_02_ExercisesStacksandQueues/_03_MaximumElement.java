@@ -11,23 +11,26 @@ public class _03_MaximumElement {
 
         int n = Integer.parseInt(scanner.nextLine());
 
-        Deque<Integer> stack = new ArrayDeque<>();
+        Deque<Integer> stackNum = new ArrayDeque<>();
 
         for (int i = 0; i < n; i++) {
             String[] tokens = scanner.nextLine().split("\\s+");
 
             switch (tokens[0]) {
                 case "1":
-                    stack.push(Integer.parseInt(tokens[1]));
+                    stackNum.push(Integer.parseInt(tokens[1]));
                     break;
                 case "2":
-                    stack.pop();
+                    if (!stackNum.isEmpty()) {
+                        stackNum.pop();
+                    }
                     break;
                 case "3":
-                    System.out.println(Collections.max(stack));
+                    int maximumElement = Collections.max(stackNum);
+                    System.out.println(maximumElement);
                     break;
             }
-
         }
     }
 }
+
