@@ -1,6 +1,6 @@
-package _06_Animals.animals.frogs;
+package _04_JavaOOP._03_Inheritance._06_Animals.animals.frogs;
 
-import _06_Animals.animals.Animal;
+import _04_JavaOOP._03_Inheritance._06_Animals.animals.Animal;
 
 public class Frog extends Animal {
 

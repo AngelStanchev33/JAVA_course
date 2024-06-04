@@ -1,10 +1,10 @@
-package _06_Animals;
+package _04_JavaOOP._03_Inheritance._06_Animals;
 
-import _06_Animals.animals.cats.Cat;
-import _06_Animals.animals.cats.Kitten;
-import _06_Animals.animals.cats.Tomcat;
-import _06_Animals.animals.dogs.Dog;
-import _06_Animals.animals.frogs.Frog;
+import _04_JavaOOP._03_Inheritance._06_Animals.animals.cats.Cat;
+import _04_JavaOOP._03_Inheritance._06_Animals.animals.cats.Kitten;
+import _04_JavaOOP._03_Inheritance._06_Animals.animals.cats.Tomcat;
+import _04_JavaOOP._03_Inheritance._06_Animals.animals.dogs.Dog;
+import _04_JavaOOP._03_Inheritance._06_Animals.animals.frogs.Frog;
 
 import java.util.Scanner;
 

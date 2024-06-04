@@ -1,6 +1,6 @@
-package _06_Animals.animals.cats;
+package _04_JavaOOP._03_Inheritance._06_Animals.animals.cats;
 
-public class Kitten extends Cat {
+public class Kitten extends Cat{
 
     private static final String MAKE_A_SOUND = "Meow";
     private static final String GENDER = "Female";

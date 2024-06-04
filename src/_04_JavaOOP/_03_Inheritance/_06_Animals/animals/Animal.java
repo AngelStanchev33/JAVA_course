@@ -1,4 +1,4 @@
-package _06_Animals.animals;
+package _04_JavaOOP._03_Inheritance._06_Animals.animals;
 
 public class Animal {
 
@@ -54,9 +54,10 @@ public class Animal {
 
     @Override
     public String toString() {
-        return String.format("%s\n" +
-                        "%s %d %s\n" +
-                        "%s",
+        return String.format("""
+                        %s
+                        %s %d %s
+                        %s""",
                 this.getClass().getSimpleName(),
                 this.name,
                 this.age,
