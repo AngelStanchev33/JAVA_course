@@ -24,7 +24,7 @@ public class _02_SoftUniParty {
             input = scanner.nextLine().trim();
         }
 
-        input = scanner.nextLine();
+        //input = scanner.nextLine();
 
         while (!"END".equals(input)) {
             vipClub.remove(input);

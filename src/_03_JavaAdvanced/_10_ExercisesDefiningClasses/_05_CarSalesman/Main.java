@@ -62,7 +62,6 @@ public class Main {
                 }
             }
 
-
             switch (carInfo.length) {
                 case 3:
                     if (carInfo[2].matches("[0-9]+")) {

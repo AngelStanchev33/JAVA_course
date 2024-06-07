@@ -31,11 +31,10 @@ public class _07_CitiesByContinentAndCountry {
         dataMap.entrySet()
                 .forEach(entry -> {
                     System.out.println(entry.getKey() + ":");
+
                     entry.getValue().entrySet().stream()
                             .forEach(innerEntry -> {
-
                                 String cities = String.join(", ", innerEntry.getValue());
-
                                 System.out.println("  " + innerEntry.getKey() + " -> " + cities);
                             });
                 });
